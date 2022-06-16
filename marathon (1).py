@@ -24,8 +24,6 @@ def fitness():
     miles_in_10min=float(input("How many miles can you run in 10 minutes? "))
     us_savings=input("How much U.S$ do you have saved for the marathon? ")
     # savings=float(input("How much U.S$ do you have saved for the marathon? ")[1:])
-    
-    #Calculating conversions between dollars and yens
     us_savings_index=us_savings[1:]
     us_saving_into_float=float(us_savings_index)
     
@@ -34,7 +32,8 @@ def fitness():
     miles_to_kilometers=miles_in_10min * km_in_a_mile
     kilometers_per_min= miles_to_kilometers / 10
     pace=(kilometers_per_min)
-    #U.S $ to Japanese Yen
+    
+    #Calculating conversions between dollars and yens
     dollars_to_yens= (us_saving_into_float * JAPANESE_YEN)
     lastname=runner_name.find(" ")
     
