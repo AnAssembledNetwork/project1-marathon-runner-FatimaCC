@@ -9,5 +9,7 @@ and US savings to YENS I had determine if they quilify for the marathon.The last
 statement that tells them if they meet the requirements to participate or if they don't meet the requirements to participate.
 
 The requirements were the following:
+
 They must be able to pay 21,888 YENS
+
 They should have a pace of at least .2km/minute.
